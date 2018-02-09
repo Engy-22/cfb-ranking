@@ -1,0 +1,1 @@
+sqlite3 ranking.db .dump > dump.sql
