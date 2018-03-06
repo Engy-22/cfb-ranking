@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "college football computer poll",
   "main": "index.js",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jbwilhite/cfb-ranking.git"
