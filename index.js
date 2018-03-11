@@ -1,7 +1,11 @@
-const scores = require('./modules/scores');
-const db = require('./modules/db');
+"use strict";
 
-//scores.store(2017, 1);
-db.buildScoresByTeam(2017,1);
+const scores = require('./modules/scores');
+const rankings = require('./modules/rankings');
+
+//scores.store(2017, 2);
+const teamScores = scores.buildForTeams(2017,2);
+
+rankings.build(teamScores);
 
 

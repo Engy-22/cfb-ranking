@@ -1,8 +1,9 @@
+"use strict";
+
 const cfb = require('cfb-data');
 const db = require('./db');
 
 async function store(season, week) {
-
     if (db.scoresExist(season, week)) {
         console.log('No scores to add');
         return false;
@@ -35,6 +36,22 @@ async function store(season, week) {
     });
 }
 
+function buildForTeams(season, endWeek) {
+    const teams = db.getTeams();
+    
+    let week = 1;
+    while (week <= endWeek) {
+        teams.forEach((team, index) => {
+            teams[index].scores = teams[index].scores || [];
+            teams[index].scores.push(db.getScoresForTeam(team.espnId, season, week));
+        });
+        week++;
+    }
+
+    return teams;
+}
+
 module.exports = {
-    store: store
+    store: store,
+    buildForTeams: buildForTeams
 };

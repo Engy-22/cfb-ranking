@@ -1,3 +1,5 @@
+"use strict";
+
 var Database = require('better-sqlite3');
 var db = new Database('db/ranking.db');
 
@@ -57,18 +59,9 @@ function getScoresForTeam(teamId, season, week) {
 	return rows;
 }
 
-function buildScoresByTeam(season, week) {
-	const teams = getTeams();
-
-	teams.forEach((team, index) => {
-		teams[index].scores = [];
-		teams[index].scores.push(getScoresForTeam(team.espnId, season, week));
-	});
-	console.dir(teams);
-}
-
 module.exports = {
 	insertScore: insertScore,
 	scoresExist: scoresExist,
-	buildScoresByTeam: buildScoresByTeam
+	getScoresForTeam: getScoresForTeam,
+	getTeams: getTeams
 };
