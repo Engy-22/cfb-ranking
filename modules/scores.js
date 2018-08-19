@@ -1,57 +1,92 @@
 "use strict";
 
 const cfb = require('cfb-data');
-const db = require('./db');
+const Query = require('./query');
 
-async function store(season, week) {
-    if (db.scoresExist(season, week)) {
-        console.log('No scores to add');
-        return false;
+module.exports = class Scores {
+
+    constructor(season, week) {
+        this.season = season;
+        this.week = week;
+        this.query = new Query();
     }
 
-    const inputs = {
-        year: season,
-        week: week,
-        groups: 80,
-        limit: 900
-    };
+    setWeek(week) {
+        this.week = week;
+    }
 
-    const response = await cfb.scoreboard.getScoreboard(inputs);
-    const events = response.events;
+    async store(season, week) {
+        let teams = this.query.getTeams();
 
-    events.forEach(event => {
-        let competition = event.competitions[0];
-        const score = {
-            homeTeam: competition.competitors[0].id,
-            homeScore: competition.competitors[0].score,
-            awayTeam: competition.competitors[1].id,
-            awayScore: competition.competitors[1].score,
-            neutralSite: competition.neutralSite ? 1 : 0,
-            season: response.season.year,
-            week: response.week.number,
-            datePlayed: competition.date
+        const inputs = {
+            year: season,
+            week: week,
+            groups: 80,
+            limit: 900
         };
 
-        db.insertScore(score);
-    });
-}
+        const response = await cfb.scoreboard.getScoreboard(inputs);
+        const events = response.events;
 
-function buildForTeams(season, endWeek) {
-    const teams = db.getTeams();
-    
-    let week = 1;
-    while (week <= endWeek) {
-        teams.forEach((team, index) => {
-            teams[index].scores = teams[index].scores || [];
-            teams[index].scores.push(db.getScoresForTeam(team.espnId, season, week));
+        events.forEach(event => {
+            let competition = event.competitions[0];
+
+            let homeTeam = competition.competitors[0];
+            let awayTeam = competition.competitors[1];
+
+            // map the id from the teams table to the espn_id
+            homeTeam.id = this.getIdFromESPNId(teams, homeTeam.id);
+            awayTeam.id = this.getIdFromESPNId(teams, awayTeam.id);
+
+            const score = {
+                homeTeam: homeTeam.id,
+                homeScore: homeTeam.score,
+                awayTeam: awayTeam.id,
+                awayScore: awayTeam.score,
+                neutralSite: competition.neutralSite ? 1 : 0,
+                season: response.season.year,
+                week: response.week.number,
+                datePlayed: competition.date
+            };
+
+            this.query.insertScore(score);
         });
-        week++;
     }
 
-    return teams;
-}
+    update() {
+        let weekIndex = 1;
+        while (weekIndex <= this.week) {
+            if (!this.query.scoresExist(this.season, weekIndex)) {
+                this.store(this.season, weekIndex);
+            } else {
+              console.log(`Scores already exist for week ${weekIndex}, skipping`);
+            }
+            weekIndex++;
+        }
+    }
 
-module.exports = {
-    store: store,
-    buildForTeams: buildForTeams
-};
+    buildForTeams() {
+        const teams = this.query.getTeams();
+
+        let weekIndex = 1;
+        while (weekIndex <= this.week) {
+            teams.forEach((team, index) => {
+                teams[index].scores = teams[index].scores || [];
+                teams[index].scores.push(this.query.getScoresForTeam(team.id, this.season, weekIndex));
+            });
+            weekIndex++;
+        }
+
+        return teams;
+    }
+
+    getIdFromESPNId(teams, espnId) {
+        for (const team of teams) {
+            if (team.espnId == espnId) {
+                return team.id;
+            }
+        };
+        
+        return null;
+    }
+}
