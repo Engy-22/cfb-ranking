@@ -1,0 +1,3346 @@
+[
+  {
+    "rating": 0.9850746268656716,
+    "id": 1,
+    "name": "Air Force",
+    "mascot": "Falcons",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9850746268656716,
+        "win": true,
+        "margin": 62,
+        "marginValue": 0.18507462686567164,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9803921568627452,
+    "id": 111,
+    "name": "Texas Tech",
+    "mascot": "Red Raiders",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9803921568627452,
+        "win": true,
+        "margin": 46,
+        "marginValue": 0.18039215686274512,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9785456187895212,
+    "id": 69,
+    "name": "Mississippi State",
+    "mascot": "Bulldogs",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9814814814814814,
+        "win": true,
+        "margin": 49,
+        "marginValue": 0.1814814814814815,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.975609756097561,
+        "win": true,
+        "margin": 36,
+        "marginValue": 0.175609756097561,
+        "opponent": 54,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9783709157846295,
+    "id": 50,
+    "name": "Kansas State",
+    "mascot": "Wildcats",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.975609756097561,
+        "win": true,
+        "margin": 36,
+        "marginValue": 0.175609756097561,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9811320754716981,
+        "win": true,
+        "margin": 48,
+        "marginValue": 0.18113207547169813,
+        "opponent": 24,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9755952380952382,
+    "id": 86,
+    "name": "Oklahoma State",
+    "mascot": "Cowboys",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9750000000000001,
+        "win": true,
+        "margin": 35,
+        "marginValue": 0.175,
+        "opponent": 117,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9761904761904763,
+        "win": true,
+        "margin": 37,
+        "marginValue": 0.1761904761904762,
+        "opponent": 97,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9741379310344828,
+    "id": 31,
+    "name": "Duke",
+    "mascot": "Blue Devils",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9827586206896552,
+        "win": true,
+        "margin": 53,
+        "marginValue": 0.1827586206896552,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9655172413793103,
+        "win": true,
+        "margin": 24,
+        "marginValue": 0.16551724137931037,
+        "opponent": 81,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9734162895927602,
+    "id": 105,
+    "name": "TCU",
+    "mascot": "Horned Frogs",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9852941176470589,
+        "win": true,
+        "margin": 63,
+        "marginValue": 0.18529411764705883,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9615384615384615,
+        "win": true,
+        "margin": 21,
+        "marginValue": 0.16153846153846155,
+        "opponent": 8,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9725545390570021,
+    "id": 123,
+    "name": "Wake Forest",
+    "mascot": "Demon Deacons",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9795918367346939,
+        "win": true,
+        "margin": 44,
+        "marginValue": 0.1795918367346939,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9655172413793103,
+        "win": true,
+        "margin": 24,
+        "marginValue": 0.16551724137931037,
+        "opponent": 15,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.971875,
+    "id": 53,
+    "name": "LSU",
+    "mascot": "Tigers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.96875,
+        "win": true,
+        "margin": 27,
+        "marginValue": 0.16875,
+        "opponent": 18,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9750000000000001,
+        "win": true,
+        "margin": 35,
+        "marginValue": 0.175,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9712773998488284,
+    "id": 101,
+    "name": "SMU",
+    "mascot": "Mustangs",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9795918367346939,
+        "win": true,
+        "margin": 44,
+        "marginValue": 0.1795918367346939,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.962962962962963,
+        "win": true,
+        "margin": 22,
+        "marginValue": 0.16296296296296298,
+        "opponent": 79,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.970959595959596,
+    "id": 29,
+    "name": "Colorado State",
+    "mascot": "Rams",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9722222222222223,
+        "win": true,
+        "margin": 31,
+        "marginValue": 0.17222222222222222,
+        "opponent": 89,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9696969696969697,
+        "win": true,
+        "margin": 28,
+        "marginValue": 0.1696969696969697,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9708431836091411,
+    "id": 120,
+    "name": "Vanderbilt",
+    "mascot": "Commodores",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.962962962962963,
+        "win": true,
+        "margin": 22,
+        "marginValue": 0.16296296296296298,
+        "opponent": 66,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9787234042553192,
+        "win": true,
+        "margin": 42,
+        "marginValue": 0.17872340425531916,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9703947368421052,
+    "id": 90,
+    "name": "Penn State",
+    "mascot": "Nittany Lions",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9824561403508771,
+        "win": true,
+        "margin": 52,
+        "marginValue": 0.1824561403508772,
+        "opponent": 2,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9583333333333333,
+        "win": true,
+        "margin": 19,
+        "marginValue": 0.15833333333333335,
+        "opponent": 91,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.968013468013468,
+    "id": 129,
+    "name": "Wisconsin",
+    "mascot": "Badgers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9814814814814814,
+        "win": true,
+        "margin": 49,
+        "marginValue": 0.1814814814814815,
+        "opponent": 119,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9545454545454546,
+        "win": true,
+        "margin": 17,
+        "marginValue": 0.15454545454545457,
+        "opponent": 36,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9679937548790007,
+    "id": 124,
+    "name": "Washington",
+    "mascot": "Huskies",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9523809523809523,
+        "win": true,
+        "margin": 16,
+        "marginValue": 0.1523809523809524,
+        "opponent": 94,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9836065573770492,
+        "win": true,
+        "margin": 56,
+        "marginValue": 0.1836065573770492,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9657407407407407,
+    "id": 85,
+    "name": "Oklahoma",
+    "mascot": "Sooners",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9814814814814814,
+        "win": true,
+        "margin": 49,
+        "marginValue": 0.1814814814814815,
+        "opponent": 112,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.95,
+        "win": true,
+        "margin": 15,
+        "marginValue": 0.15,
+        "opponent": 84,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9633838383838385,
+    "id": 3,
+    "name": "Alabama",
+    "mascot": "Crimson Tide",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9545454545454546,
+        "win": true,
+        "margin": 17,
+        "marginValue": 0.15454545454545457,
+        "opponent": 37,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9722222222222223,
+        "win": true,
+        "margin": 31,
+        "marginValue": 0.17222222222222222,
+        "opponent": 20,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9614814814814815,
+    "id": 68,
+    "name": "Ole Miss",
+    "mascot": "Rebels",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.96,
+        "win": true,
+        "margin": 20,
+        "marginValue": 0.16,
+        "opponent": 97,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.962962962962963,
+        "win": true,
+        "margin": 22,
+        "marginValue": 0.16296296296296298,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.960863697705803,
+    "id": 28,
+    "name": "Colorado",
+    "mascot": "Buffaloes",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9473684210526316,
+        "win": true,
+        "margin": 14,
+        "marginValue": 0.1473684210526316,
+        "opponent": 29,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9743589743589745,
+        "win": true,
+        "margin": 34,
+        "marginValue": 0.17435897435897438,
+        "opponent": 110,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9594017094017094,
+    "id": 114,
+    "name": "Toledo",
+    "mascot": "Rockets",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9743589743589745,
+        "win": true,
+        "margin": 34,
+        "marginValue": 0.17435897435897438,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9444444444444444,
+        "win": true,
+        "margin": 13,
+        "marginValue": 0.14444444444444446,
+        "opponent": 73,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9576719576719577,
+    "id": 64,
+    "name": "Michigan",
+    "mascot": "Wolverines",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9523809523809523,
+        "win": true,
+        "margin": 16,
+        "marginValue": 0.1523809523809524,
+        "opponent": 35,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.962962962962963,
+        "win": true,
+        "margin": 22,
+        "marginValue": 0.16296296296296298,
+        "opponent": 25,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9570175438596491,
+    "id": 65,
+    "name": "Michigan State",
+    "mascot": "Spartans",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9666666666666666,
+        "win": true,
+        "margin": 25,
+        "marginValue": 0.16666666666666666,
+        "opponent": 16,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9473684210526316,
+        "win": true,
+        "margin": 14,
+        "marginValue": 0.1473684210526316,
+        "opponent": 128,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9568627450980393,
+    "id": 59,
+    "name": "Maryland",
+    "mascot": "Terrapins",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9333333333333333,
+        "win": true,
+        "margin": 10,
+        "marginValue": 0.13333333333333333,
+        "opponent": 108,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9803921568627452,
+        "win": true,
+        "margin": 46,
+        "marginValue": 0.18039215686274512,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9565217391304348,
+    "id": 100,
+    "name": "USC",
+    "mascot": "Trojans",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9565217391304348,
+        "win": true,
+        "margin": 18,
+        "marginValue": 0.1565217391304348,
+        "opponent": 128,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9565217391304348,
+        "win": true,
+        "margin": 18,
+        "marginValue": 0.1565217391304348,
+        "opponent": 103,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9538461538461539,
+    "id": 67,
+    "name": "Minnesota",
+    "mascot": "Golden Gophers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9333333333333333,
+        "win": true,
+        "margin": 10,
+        "marginValue": 0.13333333333333333,
+        "opponent": 17,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9743589743589745,
+        "win": true,
+        "margin": 34,
+        "marginValue": 0.17435897435897438,
+        "opponent": 89,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9529177718832892,
+    "id": 26,
+    "name": "Clemson",
+    "mascot": "Tigers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9827586206896552,
+        "win": true,
+        "margin": 53,
+        "marginValue": 0.1827586206896552,
+        "opponent": 51,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9230769230769231,
+        "win": true,
+        "margin": 8,
+        "marginValue": 0.12307692307692308,
+        "opponent": 11,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.950136612021858,
+    "id": 88,
+    "name": "Oregon",
+    "mascot": "Ducks",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9836065573770492,
+        "win": true,
+        "margin": 56,
+        "marginValue": 0.1836065573770492,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9166666666666667,
+        "win": true,
+        "margin": 7,
+        "marginValue": 0.11666666666666668,
+        "opponent": 72,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9474358974358974,
+    "id": 95,
+    "name": "San Diego State",
+    "mascot": "Aztecs",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9615384615384615,
+        "win": true,
+        "margin": 21,
+        "marginValue": 0.16153846153846155,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9333333333333333,
+        "win": true,
+        "margin": 10,
+        "marginValue": 0.13333333333333333,
+        "opponent": 7,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9427083333333334,
+    "id": 122,
+    "name": "Virginia Tech",
+    "mascot": "Hokies",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9166666666666667,
+        "win": true,
+        "margin": 7,
+        "marginValue": 0.11666666666666668,
+        "opponent": 126,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.96875,
+        "win": true,
+        "margin": 27,
+        "marginValue": 0.16875,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9403508771929825,
+    "id": 87,
+    "name": "Old Dominion",
+    "mascot": "Monarchs",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9473684210526316,
+        "win": true,
+        "margin": 14,
+        "marginValue": 0.1473684210526316,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9333333333333333,
+        "win": true,
+        "margin": 10,
+        "marginValue": 0.13333333333333333,
+        "opponent": 60,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9365942028985508,
+    "id": 98,
+    "name": "South Carolina",
+    "mascot": "Gamecocks",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9166666666666667,
+        "win": true,
+        "margin": 7,
+        "marginValue": 0.11666666666666668,
+        "opponent": 78,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9565217391304348,
+        "win": true,
+        "margin": 18,
+        "marginValue": 0.1565217391304348,
+        "opponent": 70,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9365079365079365,
+    "id": 10,
+    "name": "Army",
+    "mascot": "Black Knights",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9841269841269842,
+        "win": true,
+        "margin": 58,
+        "marginValue": 0.18412698412698414,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.8888888888888888,
+        "win": true,
+        "margin": 4,
+        "marginValue": 0.08888888888888889,
+        "opponent": 17,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9353146853146853,
+    "id": 118,
+    "name": "Utah",
+    "mascot": "Utes",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9615384615384615,
+        "win": true,
+        "margin": 21,
+        "marginValue": 0.16153846153846155,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9090909090909092,
+        "win": true,
+        "margin": 6,
+        "marginValue": 0.10909090909090911,
+        "opponent": 18,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9333333333333333,
+    "id": 27,
+    "name": "Coastal Carolina",
+    "mascot": "Chanticleers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9333333333333333,
+        "win": true,
+        "margin": 10,
+        "marginValue": 0.13333333333333333,
+        "opponent": 60,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.928921568627451,
+    "id": 57,
+    "name": "Louisville",
+    "mascot": "Cardinals",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9166666666666667,
+        "win": true,
+        "margin": 7,
+        "marginValue": 0.11666666666666668,
+        "opponent": 92,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9411764705882353,
+        "win": true,
+        "margin": 12,
+        "marginValue": 0.14117647058823532,
+        "opponent": 77,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9270833333333334,
+    "id": 52,
+    "name": "Kentucky",
+    "mascot": "Wildcats",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9166666666666667,
+        "win": true,
+        "margin": 7,
+        "marginValue": 0.11666666666666668,
+        "opponent": 102,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9375,
+        "win": true,
+        "margin": 11,
+        "marginValue": 0.1375,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9236111111111112,
+    "id": 125,
+    "name": "Washington State",
+    "mascot": "Cougars",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9722222222222223,
+        "win": true,
+        "margin": 31,
+        "marginValue": 0.17222222222222222,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.875,
+        "win": true,
+        "margin": 3,
+        "marginValue": 0.07500000000000001,
+        "opponent": 14,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9222222222222222,
+    "id": 19,
+    "name": "California",
+    "mascot": "Golden Bears",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.8999999999999999,
+        "win": true,
+        "margin": 5,
+        "marginValue": 0.1,
+        "opponent": 77,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9444444444444444,
+        "win": true,
+        "margin": 13,
+        "marginValue": 0.14444444444444446,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9182692307692307,
+    "id": 47,
+    "name": "Iowa",
+    "mascot": "Hawkeyes",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9615384615384615,
+        "win": true,
+        "margin": 21,
+        "marginValue": 0.16153846153846155,
+        "opponent": 130,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.875,
+        "win": true,
+        "margin": 3,
+        "marginValue": 0.07500000000000001,
+        "opponent": 48,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9157608695652174,
+    "id": 23,
+    "name": "Central Michigan",
+    "mascot": "Chippewas",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.875,
+        "win": true,
+        "margin": 3,
+        "marginValue": 0.07500000000000001,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9565217391304348,
+        "win": true,
+        "margin": 18,
+        "marginValue": 0.1565217391304348,
+        "opponent": 49,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9147727272727273,
+    "id": 32,
+    "name": "Eastern Michigan",
+    "mascot": "Eagles",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9545454545454546,
+        "win": true,
+        "margin": 17,
+        "marginValue": 0.15454545454545457,
+        "opponent": 24,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.875,
+        "win": true,
+        "margin": 3,
+        "marginValue": 0.07500000000000001,
+        "opponent": 94,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9107142857142858,
+    "id": 71,
+    "name": "Navy",
+    "mascot": "Midshipmen",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9642857142857144,
+        "win": true,
+        "margin": 23,
+        "marginValue": 0.1642857142857143,
+        "opponent": 36,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.8571428571428572,
+        "win": true,
+        "margin": 2,
+        "marginValue": 0.05714285714285715,
+        "opponent": 116,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9097222222222222,
+    "id": 45,
+    "name": "Illinois",
+    "mascot": "Fighting Illini",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.875,
+        "win": true,
+        "margin": 3,
+        "marginValue": 0.07500000000000001,
+        "opponent": 12,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9444444444444444,
+        "win": true,
+        "margin": 13,
+        "marginValue": 0.14444444444444446,
+        "opponent": 127,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9041666666666667,
+    "id": 107,
+    "name": "Tennessee",
+    "mascot": "Volunteers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.8333333333333333,
+        "win": true,
+        "margin": 1,
+        "marginValue": 0.03333333333333333,
+        "opponent": 41,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9750000000000001,
+        "win": true,
+        "margin": 35,
+        "marginValue": 0.175,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.9035087719298245,
+    "id": 21,
+    "name": "UCLA",
+    "mascot": "Bruins",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.8333333333333333,
+        "win": true,
+        "margin": 1,
+        "marginValue": 0.03333333333333333,
+        "opponent": 109,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9736842105263157,
+        "win": true,
+        "margin": 33,
+        "marginValue": 0.1736842105263158,
+        "opponent": 42,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.8974358974358974,
+    "id": 38,
+    "name": "Georgia",
+    "mascot": "Bulldogs",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9615384615384615,
+        "win": true,
+        "margin": 21,
+        "marginValue": 0.16153846153846155,
+        "opponent": 5,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.8333333333333333,
+        "win": true,
+        "margin": 1,
+        "marginValue": 0.03333333333333333,
+        "opponent": 82,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.7397959183673469,
+    "id": 22,
+    "name": "UCF",
+    "mascot": "Knights",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9795918367346939,
+        "win": true,
+        "margin": 44,
+        "marginValue": 0.1795918367346939,
+        "opponent": 34,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.5,
+        "win": false,
+        "margin": 0,
+        "marginValue": 0.2,
+        "opponent": 61,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.7348484848484849,
+    "id": 62,
+    "name": "Miami",
+    "mascot": "Hurricanes",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9696969696969697,
+        "win": true,
+        "margin": 28,
+        "marginValue": 0.1696969696969697,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.5,
+        "win": false,
+        "margin": 0,
+        "marginValue": 0.2,
+        "opponent": 9,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.73,
+    "id": 99,
+    "name": "South Florida",
+    "mascot": "Bulls",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.96,
+        "win": true,
+        "margin": 20,
+        "marginValue": 0.16,
+        "opponent": 96,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.5,
+        "win": false,
+        "margin": 0,
+        "marginValue": 0.2,
+        "opponent": 30,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.7201754385964911,
+    "id": 82,
+    "name": "Notre Dame",
+    "mascot": "Fighting Irish",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9736842105263157,
+        "win": true,
+        "margin": 33,
+        "marginValue": 0.1736842105263158,
+        "opponent": 106,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.4666666666666667,
+        "win": false,
+        "margin": 1,
+        "marginValue": 0.16666666666666669,
+        "opponent": 38,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.7177083333333334,
+    "id": 41,
+    "name": "Georgia Tech",
+    "mascot": "Yellow Jackets",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.4666666666666667,
+        "win": false,
+        "margin": 1,
+        "marginValue": 0.16666666666666669,
+        "opponent": 107,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.96875,
+        "win": true,
+        "margin": 27,
+        "marginValue": 0.16875,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.7115384615384616,
+    "id": 61,
+    "name": "Memphis",
+    "mascot": "Tigers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9230769230769231,
+        "win": true,
+        "margin": 8,
+        "marginValue": 0.12307692307692308,
+        "opponent": 56,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.5,
+        "win": false,
+        "margin": 0,
+        "marginValue": 0.2,
+        "opponent": 22,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.7083333333333334,
+    "id": 30,
+    "name": "Connecticut",
+    "mascot": "Huskies",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9166666666666667,
+        "win": true,
+        "margin": 7,
+        "marginValue": 0.11666666666666668,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.5,
+        "win": false,
+        "margin": 0,
+        "marginValue": 0.2,
+        "opponent": 99,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.7083333333333334,
+    "id": 113,
+    "name": "UTSA",
+    "mascot": "Roadrunners",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.5,
+        "win": false,
+        "margin": 0,
+        "marginValue": 0.2,
+        "opponent": 43,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9166666666666667,
+        "win": true,
+        "margin": 7,
+        "marginValue": 0.11666666666666668,
+        "opponent": 13,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.7067226890756303,
+    "id": 116,
+    "name": "Tulane",
+    "mascot": "Green Wave",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9705882352941178,
+        "win": true,
+        "margin": 29,
+        "marginValue": 0.17058823529411768,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.44285714285714284,
+        "win": false,
+        "margin": 2,
+        "marginValue": 0.14285714285714285,
+        "opponent": 71,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.7041871921182266,
+    "id": 75,
+    "name": "New Mexico",
+    "mascot": "Lobos",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9655172413793103,
+        "win": true,
+        "margin": 24,
+        "marginValue": 0.16551724137931037,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.44285714285714284,
+        "win": false,
+        "margin": 2,
+        "marginValue": 0.14285714285714285,
+        "opponent": 76,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.7008720930232558,
+    "id": 6,
+    "name": "Arizona",
+    "mascot": "Wildcats",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9767441860465116,
+        "win": true,
+        "margin": 38,
+        "marginValue": 0.17674418604651165,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.425,
+        "win": false,
+        "margin": 3,
+        "marginValue": 0.125,
+        "opponent": 43,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.7,
+    "id": 109,
+    "name": "Texas A&M",
+    "mascot": "Aggies",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.4666666666666667,
+        "win": false,
+        "margin": 1,
+        "marginValue": 0.16666666666666669,
+        "opponent": 21,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9333333333333333,
+        "win": true,
+        "margin": 10,
+        "marginValue": 0.13333333333333333,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6973484848484849,
+    "id": 74,
+    "name": "UNLV",
+    "mascot": "Rebels",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.425,
+        "win": false,
+        "margin": 3,
+        "marginValue": 0.125,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9696969696969697,
+        "win": true,
+        "margin": 28,
+        "marginValue": 0.1696969696969697,
+        "opponent": 44,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6973484848484849,
+    "id": 80,
+    "name": "Northern Illinois",
+    "mascot": "Huskies",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.425,
+        "win": false,
+        "margin": 3,
+        "marginValue": 0.125,
+        "opponent": 15,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9696969696969697,
+        "win": true,
+        "margin": 28,
+        "marginValue": 0.1696969696969697,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6925,
+    "id": 12,
+    "name": "Ball State",
+    "mascot": "Cardinals",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.425,
+        "win": false,
+        "margin": 3,
+        "marginValue": 0.125,
+        "opponent": 45,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.96,
+        "win": true,
+        "margin": 20,
+        "marginValue": 0.16,
+        "opponent": 4,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6907608695652174,
+    "id": 48,
+    "name": "Iowa State",
+    "mascot": "Cyclones",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9565217391304348,
+        "win": true,
+        "margin": 18,
+        "marginValue": 0.1565217391304348,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.425,
+        "win": false,
+        "margin": 3,
+        "marginValue": 0.125,
+        "opponent": 47,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6875,
+    "id": 43,
+    "name": "Houston",
+    "mascot": "Cougars",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.5,
+        "win": false,
+        "margin": 0,
+        "marginValue": 0.2,
+        "opponent": 113,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.875,
+        "win": true,
+        "margin": 3,
+        "marginValue": 0.07500000000000001,
+        "opponent": 6,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6816666666666666,
+    "id": 102,
+    "name": "Southern Miss",
+    "mascot": "Golden Eagles",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3833333333333333,
+        "win": false,
+        "margin": 7,
+        "marginValue": 0.08333333333333333,
+        "opponent": 52,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.98,
+        "win": true,
+        "margin": 45,
+        "marginValue": 0.18,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.68125,
+    "id": 14,
+    "name": "Boise State",
+    "mascot": "Broncos",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9375,
+        "win": true,
+        "margin": 11,
+        "marginValue": 0.1375,
+        "opponent": 115,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.425,
+        "win": false,
+        "margin": 3,
+        "marginValue": 0.125,
+        "opponent": 125,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.68125,
+    "id": 104,
+    "name": "Syracuse",
+    "mascot": "Orange",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9791666666666667,
+        "win": true,
+        "margin": 43,
+        "marginValue": 0.17916666666666667,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3833333333333333,
+        "win": false,
+        "margin": 7,
+        "marginValue": 0.08333333333333333,
+        "opponent": 66,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6807692307692308,
+    "id": 63,
+    "name": "Miami (OH)",
+    "mascot": "RedHawks",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.4,
+        "win": false,
+        "margin": 5,
+        "marginValue": 0.1,
+        "opponent": 58,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9615384615384615,
+        "win": true,
+        "margin": 21,
+        "marginValue": 0.16153846153846155,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6794715447154471,
+    "id": 126,
+    "name": "West Virginia",
+    "mascot": "Mountaineers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3833333333333333,
+        "win": false,
+        "margin": 7,
+        "marginValue": 0.08333333333333333,
+        "opponent": 122,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.975609756097561,
+        "win": true,
+        "margin": 36,
+        "marginValue": 0.175609756097561,
+        "opponent": 33,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6756410256410257,
+    "id": 11,
+    "name": "Auburn",
+    "mascot": "Tigers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9743589743589745,
+        "win": true,
+        "margin": 34,
+        "marginValue": 0.17435897435897438,
+        "opponent": 39,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3769230769230769,
+        "win": false,
+        "margin": 8,
+        "marginValue": 0.07692307692307693,
+        "opponent": 26,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6751366120218579,
+    "id": 108,
+    "name": "Texas",
+    "mascot": "Longhorns",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3666666666666667,
+        "win": false,
+        "margin": 10,
+        "marginValue": 0.06666666666666668,
+        "opponent": 59,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9836065573770492,
+        "win": true,
+        "margin": 56,
+        "marginValue": 0.1836065573770492,
+        "opponent": 96,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6738095238095239,
+    "id": 92,
+    "name": "Purdue",
+    "mascot": "Boilermakers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3833333333333333,
+        "win": false,
+        "margin": 7,
+        "marginValue": 0.08333333333333333,
+        "opponent": 57,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9642857142857144,
+        "win": true,
+        "margin": 23,
+        "marginValue": 0.1642857142857143,
+        "opponent": 83,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6691387559808613,
+    "id": 18,
+    "name": "BYU",
+    "mascot": "Cougars",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9473684210526316,
+        "win": true,
+        "margin": 14,
+        "marginValue": 0.1473684210526316,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3909090909090909,
+        "win": false,
+        "margin": 6,
+        "marginValue": 0.0909090909090909,
+        "opponent": 118,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.668939393939394,
+    "id": 78,
+    "name": "NC State",
+    "mascot": "Wolfpack",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3833333333333333,
+        "win": false,
+        "margin": 7,
+        "marginValue": 0.08333333333333333,
+        "opponent": 98,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9545454545454546,
+        "win": true,
+        "margin": 17,
+        "marginValue": 0.15454545454545457,
+        "opponent": 58,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.665625,
+    "id": 115,
+    "name": "Troy",
+    "mascot": "Trojans",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3625,
+        "win": false,
+        "margin": 11,
+        "marginValue": 0.0625,
+        "opponent": 14,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.96875,
+        "win": true,
+        "margin": 27,
+        "marginValue": 0.16875,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6634057971014493,
+    "id": 103,
+    "name": "Stanford",
+    "mascot": "Cardinal",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9833333333333334,
+        "win": true,
+        "margin": 55,
+        "marginValue": 0.18333333333333332,
+        "opponent": 93,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.34347826086956523,
+        "win": false,
+        "margin": 18,
+        "marginValue": 0.043478260869565216,
+        "opponent": 100,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6600446428571428,
+    "id": 83,
+    "name": "Ohio",
+    "mascot": "Bobcats",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.984375,
+        "win": true,
+        "margin": 59,
+        "marginValue": 0.184375,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3357142857142857,
+        "win": false,
+        "margin": 23,
+        "marginValue": 0.0357142857142857,
+        "opponent": 92,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6598484848484849,
+    "id": 84,
+    "name": "Ohio State",
+    "mascot": "Buckeyes",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9696969696969697,
+        "win": true,
+        "margin": 28,
+        "marginValue": 0.1696969696969697,
+        "opponent": 46,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.35,
+        "win": false,
+        "margin": 15,
+        "marginValue": 0.05000000000000002,
+        "opponent": 85,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6596153846153847,
+    "id": 5,
+    "name": "Appalachian State",
+    "mascot": "Mountaineers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3384615384615385,
+        "win": false,
+        "margin": 21,
+        "marginValue": 0.038461538461538464,
+        "opponent": 38,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9807692307692308,
+        "win": true,
+        "margin": 47,
+        "marginValue": 0.18076923076923077,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6585924713584288,
+    "id": 8,
+    "name": "Arkansas",
+    "mascot": "Razorbacks",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9787234042553192,
+        "win": true,
+        "margin": 42,
+        "marginValue": 0.17872340425531916,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3384615384615385,
+        "win": false,
+        "margin": 21,
+        "marginValue": 0.038461538461538464,
+        "opponent": 105,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6585185185185185,
+    "id": 79,
+    "name": "North Texas",
+    "mascot": "Mean Green",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.98,
+        "win": true,
+        "margin": 45,
+        "marginValue": 0.18,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.337037037037037,
+        "win": false,
+        "margin": 22,
+        "marginValue": 0.037037037037037035,
+        "opponent": 101,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6570332480818415,
+    "id": 70,
+    "name": "Missouri",
+    "mascot": "Tigers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9705882352941178,
+        "win": true,
+        "margin": 29,
+        "marginValue": 0.17058823529411768,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.34347826086956523,
+        "win": false,
+        "margin": 18,
+        "marginValue": 0.043478260869565216,
+        "opponent": 98,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6568466353677621,
+    "id": 20,
+    "name": "Fresno State",
+    "mascot": "Bulldogs",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9859154929577465,
+        "win": true,
+        "margin": 66,
+        "marginValue": 0.18591549295774648,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3277777777777778,
+        "win": false,
+        "margin": 31,
+        "marginValue": 0.02777777777777779,
+        "opponent": 3,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6561111111111111,
+    "id": 4,
+    "name": "UAB",
+    "mascot": "Blazers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9722222222222223,
+        "win": true,
+        "margin": 31,
+        "marginValue": 0.17222222222222222,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.33999999999999997,
+        "win": false,
+        "margin": 20,
+        "marginValue": 0.04000000000000001,
+        "opponent": 12,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6536057692307693,
+    "id": 130,
+    "name": "Wyoming",
+    "mascot": "Cowboys",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3384615384615385,
+        "win": false,
+        "margin": 21,
+        "marginValue": 0.038461538461538464,
+        "opponent": 47,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.96875,
+        "win": true,
+        "margin": 27,
+        "marginValue": 0.16875,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6532206119162641,
+    "id": 49,
+    "name": "Kansas",
+    "mascot": "Jayhawks",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.962962962962963,
+        "win": true,
+        "margin": 22,
+        "marginValue": 0.16296296296296298,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.34347826086956523,
+        "win": false,
+        "margin": 18,
+        "marginValue": 0.043478260869565216,
+        "opponent": 23,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6514619883040935,
+    "id": 127,
+    "name": "Western Kentucky",
+    "mascot": "Hilltoppers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9473684210526316,
+        "win": true,
+        "margin": 14,
+        "marginValue": 0.1473684210526316,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3555555555555555,
+        "win": false,
+        "margin": 13,
+        "marginValue": 0.05555555555555555,
+        "opponent": 45,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6509881422924901,
+    "id": 121,
+    "name": "Virginia",
+    "mascot": "Cavaliers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9565217391304348,
+        "win": true,
+        "margin": 18,
+        "marginValue": 0.1565217391304348,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.34545454545454546,
+        "win": false,
+        "margin": 17,
+        "marginValue": 0.04545454545454544,
+        "opponent": 46,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.65,
+    "id": 72,
+    "name": "Nebraska",
+    "mascot": "Cornhuskers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9166666666666667,
+        "win": true,
+        "margin": 7,
+        "marginValue": 0.11666666666666668,
+        "opponent": 9,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3833333333333333,
+        "win": false,
+        "margin": 7,
+        "marginValue": 0.08333333333333333,
+        "opponent": 88,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.649512670565302,
+    "id": 2,
+    "name": "Akron",
+    "mascot": "Zips",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3175438596491228,
+        "win": false,
+        "margin": 52,
+        "marginValue": 0.017543859649122806,
+        "opponent": 90,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9814814814814814,
+        "win": true,
+        "margin": 49,
+        "marginValue": 0.1814814814814815,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.647631352282515,
+    "id": 119,
+    "name": "Utah State",
+    "mascot": "Aggies",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.31851851851851853,
+        "win": false,
+        "margin": 49,
+        "marginValue": 0.018518518518518517,
+        "opponent": 129,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9767441860465116,
+        "win": true,
+        "margin": 38,
+        "marginValue": 0.17674418604651165,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6470436067997043,
+    "id": 54,
+    "name": "Louisiana Tech",
+    "mascot": "Bulldogs",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9696969696969697,
+        "win": true,
+        "margin": 28,
+        "marginValue": 0.1696969696969697,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.324390243902439,
+        "win": false,
+        "margin": 36,
+        "marginValue": 0.02439024390243902,
+        "opponent": 69,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6466329966329967,
+    "id": 44,
+    "name": "Idaho",
+    "mascot": "Vandals",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.962962962962963,
+        "win": true,
+        "margin": 22,
+        "marginValue": 0.16296296296296298,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3303030303030303,
+        "win": false,
+        "margin": 28,
+        "marginValue": 0.030303030303030304,
+        "opponent": 74,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6452586206896551,
+    "id": 117,
+    "name": "Tulsa",
+    "mascot": "Golden Hurricane",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.325,
+        "win": false,
+        "margin": 35,
+        "marginValue": 0.025000000000000022,
+        "opponent": 86,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9655172413793103,
+        "win": true,
+        "margin": 24,
+        "marginValue": 0.16551724137931037,
+        "opponent": 55,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6424242424242425,
+    "id": 46,
+    "name": "Indiana",
+    "mascot": "Hoosiers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3303030303030303,
+        "win": false,
+        "margin": 28,
+        "marginValue": 0.030303030303030304,
+        "opponent": 84,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9545454545454546,
+        "win": true,
+        "margin": 17,
+        "marginValue": 0.15454545454545457,
+        "opponent": 121,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6391067538126362,
+    "id": 25,
+    "name": "Cincinnati",
+    "mascot": "Bearcats",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9411764705882353,
+        "win": true,
+        "margin": 12,
+        "marginValue": 0.14117647058823532,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.337037037037037,
+        "win": false,
+        "margin": 22,
+        "marginValue": 0.037037037037037035,
+        "opponent": 64,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6378787878787879,
+    "id": 7,
+    "name": "Arizona State",
+    "mascot": "Sun Devils",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9090909090909092,
+        "win": true,
+        "margin": 6,
+        "marginValue": 0.10909090909090911,
+        "opponent": 76,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3666666666666667,
+        "win": false,
+        "margin": 10,
+        "marginValue": 0.06666666666666668,
+        "opponent": 95,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6359913793103449,
+    "id": 81,
+    "name": "Northwestern",
+    "mascot": "Wildcats",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9375,
+        "win": true,
+        "margin": 11,
+        "marginValue": 0.1375,
+        "opponent": 73,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.33448275862068966,
+        "win": false,
+        "margin": 24,
+        "marginValue": 0.03448275862068964,
+        "opponent": 31,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6356060606060606,
+    "id": 93,
+    "name": "Rice",
+    "mascot": "Owls",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.31666666666666665,
+        "win": false,
+        "margin": 55,
+        "marginValue": 0.01666666666666669,
+        "opponent": 103,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9545454545454546,
+        "win": true,
+        "margin": 17,
+        "marginValue": 0.15454545454545457,
+        "opponent": 112,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6291666666666667,
+    "id": 91,
+    "name": "Pittsburgh",
+    "mascot": "Panthers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9166666666666667,
+        "win": true,
+        "margin": 7,
+        "marginValue": 0.11666666666666668,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3416666666666667,
+        "win": false,
+        "margin": 19,
+        "marginValue": 0.04166666666666666,
+        "opponent": 90,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6271062271062271,
+    "id": 110,
+    "name": "Texas State",
+    "mascot": "Bobcats",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.9285714285714286,
+        "win": true,
+        "margin": 9,
+        "marginValue": 0.1285714285714286,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3256410256410256,
+        "win": false,
+        "margin": 34,
+        "marginValue": 0.025641025641025633,
+        "opponent": 28,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6268518518518519,
+    "id": 66,
+    "name": "Middle Tennessee",
+    "mascot": "Blue Raiders",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.337037037037037,
+        "win": false,
+        "margin": 22,
+        "marginValue": 0.037037037037037035,
+        "opponent": 120,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9166666666666667,
+        "win": true,
+        "margin": 7,
+        "marginValue": 0.11666666666666668,
+        "opponent": 104,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.624025974025974,
+    "id": 76,
+    "name": "New Mexico State",
+    "mascot": "Aggies",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3909090909090909,
+        "win": false,
+        "margin": 6,
+        "marginValue": 0.0909090909090909,
+        "opponent": 7,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.8571428571428572,
+        "win": true,
+        "margin": 2,
+        "marginValue": 0.05714285714285715,
+        "opponent": 75,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6227272727272727,
+    "id": 58,
+    "name": "Marshall",
+    "mascot": "Thundering Herd",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.8999999999999999,
+        "win": true,
+        "margin": 5,
+        "marginValue": 0.1,
+        "opponent": 63,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.34545454545454546,
+        "win": false,
+        "margin": 17,
+        "marginValue": 0.04545454545454544,
+        "opponent": 78,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6185374149659864,
+    "id": 34,
+    "name": "FIU",
+    "mascot": "Panthers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3204081632653061,
+        "win": false,
+        "margin": 44,
+        "marginValue": 0.020408163265306117,
+        "opponent": 22,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9166666666666667,
+        "win": true,
+        "margin": 7,
+        "marginValue": 0.11666666666666668,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6169540229885058,
+    "id": 51,
+    "name": "Kent State",
+    "mascot": "Golden Flashes",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3172413793103448,
+        "win": false,
+        "margin": 53,
+        "marginValue": 0.017241379310344807,
+        "opponent": 26,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.9166666666666667,
+        "win": true,
+        "margin": 7,
+        "marginValue": 0.11666666666666668,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6047413793103449,
+    "id": 15,
+    "name": "Boston College",
+    "mascot": "Eagles",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.875,
+        "win": true,
+        "margin": 3,
+        "marginValue": 0.07500000000000001,
+        "opponent": 80,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.33448275862068966,
+        "win": false,
+        "margin": 24,
+        "marginValue": 0.03448275862068964,
+        "opponent": 123,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6047413793103449,
+    "id": 55,
+    "name": "Louisiana-Lafayette",
+    "mascot": "Ragin' Cajuns",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.875,
+        "win": true,
+        "margin": 3,
+        "marginValue": 0.07500000000000001,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.33448275862068966,
+        "win": false,
+        "margin": 24,
+        "marginValue": 0.03448275862068964,
+        "opponent": 117,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6006578947368422,
+    "id": 42,
+    "name": "Hawai'i",
+    "mascot": "Rainbow Warriors",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.875,
+        "win": true,
+        "margin": 3,
+        "marginValue": 0.07500000000000001,
+        "opponent": 60,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3263157894736842,
+        "win": false,
+        "margin": 33,
+        "marginValue": 0.02631578947368421,
+        "opponent": 21,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.6006578947368422,
+    "id": 106,
+    "name": "Temple",
+    "mascot": "Owls",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3263157894736842,
+        "win": false,
+        "margin": 33,
+        "marginValue": 0.02631578947368421,
+        "opponent": 82,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.875,
+        "win": true,
+        "margin": 3,
+        "marginValue": 0.07500000000000001,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.44166666666666665,
+    "id": 9,
+    "name": "Arkansas State",
+    "mascot": "Red Wolves",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3833333333333333,
+        "win": false,
+        "margin": 7,
+        "marginValue": 0.08333333333333333,
+        "opponent": 72,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.5,
+        "win": false,
+        "margin": 0,
+        "marginValue": 0.2,
+        "opponent": 62,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.43846153846153846,
+    "id": 56,
+    "name": "Louisiana-Monroe",
+    "mascot": "Warhawks",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3769230769230769,
+        "win": false,
+        "margin": 8,
+        "marginValue": 0.07692307692307693,
+        "opponent": 61,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.5,
+        "win": false,
+        "margin": 0,
+        "marginValue": 0.2,
+        "opponent": 37,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.4238095238095238,
+    "id": 35,
+    "name": "Florida",
+    "mascot": "Gators",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3476190476190476,
+        "win": false,
+        "margin": 16,
+        "marginValue": 0.047619047619047616,
+        "opponent": 64,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.5,
+        "win": false,
+        "margin": 0,
+        "marginValue": 0.2,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.42272727272727273,
+    "id": 37,
+    "name": "Florida State",
+    "mascot": "Seminoles",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.34545454545454546,
+        "win": false,
+        "margin": 17,
+        "marginValue": 0.04545454545454544,
+        "opponent": 3,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.5,
+        "win": false,
+        "margin": 0,
+        "marginValue": 0.2,
+        "opponent": 56,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.4041666666666667,
+    "id": 13,
+    "name": "Baylor",
+    "mascot": "Bears",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.425,
+        "win": false,
+        "margin": 3,
+        "marginValue": 0.125,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3833333333333333,
+        "win": false,
+        "margin": 7,
+        "marginValue": 0.08333333333333333,
+        "opponent": 113,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.39583333333333337,
+    "id": 60,
+    "name": "Massachusetts",
+    "mascot": "Minutemen",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.425,
+        "win": false,
+        "margin": 3,
+        "marginValue": 0.125,
+        "opponent": 42,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3666666666666667,
+        "win": false,
+        "margin": 10,
+        "marginValue": 0.06666666666666668,
+        "opponent": 87,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.3888888888888889,
+    "id": 17,
+    "name": "Buffalo",
+    "mascot": "Bulls",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3666666666666667,
+        "win": false,
+        "margin": 10,
+        "marginValue": 0.06666666666666668,
+        "opponent": 67,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.4111111111111111,
+        "win": false,
+        "margin": 4,
+        "marginValue": 0.11111111111111112,
+        "opponent": 10,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.38630952380952377,
+    "id": 94,
+    "name": "Rutgers",
+    "mascot": "Scarlet Knights",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3476190476190476,
+        "win": false,
+        "margin": 16,
+        "marginValue": 0.047619047619047616,
+        "opponent": 124,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.425,
+        "win": false,
+        "margin": 3,
+        "marginValue": 0.125,
+        "opponent": 32,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.3833333333333333,
+    "id": 40,
+    "name": "Georgia State",
+    "mascot": "Panthers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3833333333333333,
+        "win": false,
+        "margin": 7,
+        "marginValue": 0.08333333333333333,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.37941176470588234,
+    "id": 77,
+    "name": "North Carolina",
+    "mascot": "Tar Heels",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.4,
+        "win": false,
+        "margin": 5,
+        "marginValue": 0.1,
+        "opponent": 19,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.35882352941176465,
+        "win": false,
+        "margin": 12,
+        "marginValue": 0.05882352941176469,
+        "opponent": 57,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.3590277777777777,
+    "id": 73,
+    "name": "Nevada",
+    "mascot": "Wolf Pack",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3625,
+        "win": false,
+        "margin": 11,
+        "marginValue": 0.0625,
+        "opponent": 81,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3555555555555555,
+        "win": false,
+        "margin": 13,
+        "marginValue": 0.05555555555555555,
+        "opponent": 114,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.35512820512820514,
+    "id": 16,
+    "name": "Bowling Green",
+    "mascot": "Falcons",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.33333333333333337,
+        "win": false,
+        "margin": 25,
+        "marginValue": 0.033333333333333354,
+        "opponent": 65,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3769230769230769,
+        "win": false,
+        "margin": 8,
+        "marginValue": 0.07692307692307693,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.3480549199084668,
+    "id": 128,
+    "name": "Western Michigan",
+    "mascot": "Broncos",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.34347826086956523,
+        "win": false,
+        "margin": 18,
+        "marginValue": 0.043478260869565216,
+        "opponent": 100,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3526315789473684,
+        "win": false,
+        "margin": 14,
+        "marginValue": 0.05263157894736842,
+        "opponent": 65,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.34615384615384615,
+    "id": 39,
+    "name": "Georgia Southern",
+    "mascot": "Eagles",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3256410256410256,
+        "win": false,
+        "margin": 34,
+        "marginValue": 0.025641025641025633,
+        "opponent": 11,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3666666666666667,
+        "win": false,
+        "margin": 10,
+        "marginValue": 0.06666666666666668,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.34058441558441555,
+    "id": 36,
+    "name": "Florida Atlantic",
+    "mascot": "Owls",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3357142857142857,
+        "win": false,
+        "margin": 23,
+        "marginValue": 0.0357142857142857,
+        "opponent": 71,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.34545454545454546,
+        "win": false,
+        "margin": 17,
+        "marginValue": 0.04545454545454544,
+        "opponent": 129,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.3321951219512195,
+    "id": 33,
+    "name": "East Carolina",
+    "mascot": "Pirates",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.33999999999999997,
+        "win": false,
+        "margin": 20,
+        "marginValue": 0.04000000000000001,
+        "opponent": null,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.324390243902439,
+        "win": false,
+        "margin": 36,
+        "marginValue": 0.02439024390243902,
+        "opponent": 126,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.3321612349914237,
+    "id": 24,
+    "name": "Charlotte",
+    "mascot": "49ers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.34545454545454546,
+        "win": false,
+        "margin": 17,
+        "marginValue": 0.04545454545454544,
+        "opponent": 32,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.31886792452830187,
+        "win": false,
+        "margin": 48,
+        "marginValue": 0.018867924528301883,
+        "opponent": 50,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.331986531986532,
+    "id": 112,
+    "name": "UTEP",
+    "mascot": "Miners",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.31851851851851853,
+        "win": false,
+        "margin": 49,
+        "marginValue": 0.018518518518518517,
+        "opponent": 85,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.34545454545454546,
+        "win": false,
+        "margin": 17,
+        "marginValue": 0.04545454545454544,
+        "opponent": 93,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.33190476190476187,
+    "id": 97,
+    "name": "South Alabama",
+    "mascot": "Jaguars",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.33999999999999997,
+        "win": false,
+        "margin": 20,
+        "marginValue": 0.04000000000000001,
+        "opponent": 68,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.32380952380952377,
+        "win": false,
+        "margin": 37,
+        "marginValue": 0.023809523809523808,
+        "opponent": 86,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.32819672131147537,
+    "id": 96,
+    "name": "San Jose State",
+    "mascot": "Spartans",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.33999999999999997,
+        "win": false,
+        "margin": 20,
+        "marginValue": 0.04000000000000001,
+        "opponent": 99,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.31639344262295077,
+        "win": false,
+        "margin": 56,
+        "marginValue": 0.01639344262295081,
+        "opponent": 108,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  },
+  {
+    "rating": 0.32670940170940166,
+    "id": 89,
+    "name": "Oregon State",
+    "mascot": "Beavers",
+    "weeks": [
+      {
+        "week": 1,
+        "valueOfWin": 0.3277777777777778,
+        "win": false,
+        "margin": 31,
+        "marginValue": 0.02777777777777779,
+        "opponent": 29,
+        "qualityOfOpponent": 0.3
+      },
+      {
+        "week": 2,
+        "valueOfWin": 0.3256410256410256,
+        "win": false,
+        "margin": 34,
+        "marginValue": 0.025641025641025633,
+        "opponent": 67,
+        "qualityOfOpponent": 0.3
+      }
+    ]
+  }
+]
