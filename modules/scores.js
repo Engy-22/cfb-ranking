@@ -11,10 +11,6 @@ module.exports = class Scores {
         this.query = new Query();
     }
 
-    setWeek(week) {
-        this.week = week;
-    }
-
     async store(season, week) {
         let teams = this.query.getTeams();
 

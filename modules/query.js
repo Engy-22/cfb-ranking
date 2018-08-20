@@ -63,4 +63,18 @@ module.exports = class Query {
         const rows = this.db.prepare(sql).get(params);
         return rows;
     }
+
+    insertRating(season, week, rating) {
+        const sql = 'INSERT INTO ratings (team_id, season, week, rating, json) VALUES (?,?,?,?,?)';
+        const params = [rating.id, season, week, rating.rating, JSON.stringify(rating)];
+        return this.db.prepare(sql).run(params);
+    }
+
+    clearRatings(season, week) {
+        const sql = 'delete from ratings WHERE season = ? AND week = ?';
+        const params = [season, week];
+
+        return this.db.prepare(sql).run(params);
+    }
+    
 }
