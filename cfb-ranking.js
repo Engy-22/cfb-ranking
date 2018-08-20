@@ -58,7 +58,7 @@ async function main() {
     const teamScores = scores.buildForTeams();
 
     // build rankings
-    ranking = new Ranking(season, week, teamScores);
+    let ranking = new Ranking(season, week, teamScores);
     ranking.build();
     ranking.store();
 }
