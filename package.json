@@ -2,16 +2,11 @@
   "name": "cfb-ranking",
   "version": "1.0.0",
   "description": "college football computer poll",
-  "main": "index.js",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jbwilhite/cfb-ranking.git"
+  "scripts": {
+    "init-db": "sqlite3 db/ranking.db < db/ranking.db.sql",
+    "init": "yarn run init-db"
   },
-  "bugs": {
-    "url": "https://github.com/jbwilhite/cfb-ranking/issues"
-  },
-  "homepage": "https://github.com/jbwilhite/cfb-ranking#readme",
   "dependencies": {
     "better-sqlite3": "^4.1.0",
     "cfb-data": "^2.2.1",
