@@ -21,7 +21,7 @@ async function main() {
     art += `  \\___|_| |___/   |_|_\\/_/ \\_\\_|\\_|_|\\_\\___|_|\\_|\\___|${os.EOL}`;
     art += ` NCAA College Football ranking tool built with node.js${ os.EOL }`;
 
-    console.log(chalk.blue(art));
+    //console.log(chalk.blue(art));
 
     // prompt user for season and week
     try {
@@ -50,9 +50,13 @@ async function main() {
         process.exit();
     }
 
+    console.log('');
+
     // make sure all scores are up to date
     let scores = new Scores(season, week);
     scores.update();
+
+    console.log('');
 
     // build team and scores object
     const teamScores = scores.buildForTeams();
@@ -60,7 +64,27 @@ async function main() {
     // build rankings
     let ranking = new Ranking(season, week, teamScores);
     ranking.build();
-    ranking.store();
+    let result = ranking.store();
+
+    // if rankings already exist for this week, confirm overwrite
+    if (!result) {
+        try {
+            let answers = await inquirer.prompt([
+                {
+                    type: 'confirm',
+                    name: 'overwrite',
+                    message: `Rankings already exist for Season ${season} Week ${week}.  Do you want to overwrite?`
+                },
+            ]);
+
+            if (answers.overwrite) {
+                ranking.store(true);
+            }
+        } catch (error) {
+            console.log(chalk.red('An error occured - exiting...'));
+            process.exit();
+        }
+    }
 }
 
 // run

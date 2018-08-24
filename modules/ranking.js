@@ -13,7 +13,7 @@ module.exports = class Ranking {
     
         this.teamScores.forEach(team => {
             this.ratings[team.id] = {
-                rating: 0,
+                rating: 0.0,
                 id: team.id,
                 name: team.name,
                 mascot: team.mascot,
@@ -25,50 +25,79 @@ module.exports = class Ranking {
     }
 
     build() {
-        this.teamScores.forEach(team => {
-            team.scores.forEach((score, week) => {
-                week++;
+        let cont = true;
+        let i = 0;
 
-                if (score) {
-                    let valueOfWin = 0;
-                    let margin = Math.abs(score.score - score.opposingScore);;
-                    let marginValue = 0.2 * margin / (margin + 5);
-                    let qualityOfOpponent = 0.3;
-                    let win = false;
-                    let opponent = score.opposingTeam;
-
-                    // win
-                    if (score.score > score.opposingScore) {
-                        valueOfWin = 0.5;
-                        valueOfWin = valueOfWin + marginValue + qualityOfOpponent;
-                        win = true;
+        while (cont) {
+            // copy object
+            let previousRatings = JSON.parse(JSON.stringify(this.ratings));
+            
+            this.teamScores.forEach(team => {
+                team.scores.forEach((score, week) => {
+                    week++;
+                    if (score) {
+                        this.calculate(team, score, week);
                     }
-                    // loss
-                    else {
-                        marginValue = (0.2 - marginValue);
-                        valueOfWin = valueOfWin + marginValue + qualityOfOpponent;
-                    }
-
-                    this.ratings[team.id].weeks.push({
-                        week,
-                        valueOfWin,
-                        win,
-                        margin,
-                        marginValue,
-                        opponent,
-                        qualityOfOpponent
-                    });
-
-                    //roll value of this win into the rating average
-                    this.ratings[team.id].rating = ((this.ratings[team.id].rating * (week - 1)) + valueOfWin) / week;
-                }
+                });
             });
-        });
+
+            i++;
+
+            // compare new set of ratings to previous
+            if (this.compareRatings(this.ratings, previousRatings)) {
+                cont = false;
+            }
+        }
+
+        console.log(`Iterations needed to compute rankings: ${i}`)
 
         return this.ratings;
     }
 
-    store() {
+    calculate(team, score, week) {
+        let valueOfWin = 0.0;
+        let margin = Math.abs(score.score - score.opposingScore);
+        let marginValue = 0.2 * margin / (margin + 5);
+        let opponent = score.opposingTeam;
+        let win = false;
+        let qualityOfOpponent = this.getQualityOfOpponent(opponent);
+        let qualityOfOpponentValue = this.round(qualityOfOpponent * 0.3);
+
+        // win
+        if (score.score > score.opposingScore) {
+            valueOfWin = 0.5;
+            win = true;
+        }
+        // loss
+        else {
+            marginValue = (0.2 - marginValue);
+        }
+        marginValue = this.round(marginValue);
+
+        valueOfWin = valueOfWin + marginValue + qualityOfOpponentValue;
+        valueOfWin = this.round(valueOfWin);
+
+        this.ratings[team.id].weeks[week-1] = {
+            week,
+            valueOfWin,
+            win,
+            margin,
+            marginValue,
+            opponent,
+            qualityOfOpponent,
+            qualityOfOpponentValue
+        };
+
+        //roll value of this win into the rating average
+        this.ratings[team.id].rating = this.round(((this.ratings[team.id].rating * (week - 1)) + valueOfWin) / week);
+    }
+
+    store(overwrite = false) {
+        // check if ratings already exist for this week
+        if (!overwrite && this.query.ratingsExist(this.season, this.week)) {
+            return false;
+        }
+
         // clear existing ratings for this week
         this.query.clearRatings(this.season, this.week);
 
@@ -76,6 +105,23 @@ module.exports = class Ranking {
         Object.keys(this.ratings).forEach((key) => {
             this.query.insertRating(this.season, this.week, this.ratings[key]);
         });
+    }
+
+    compareRatings(current, previous) {
+        return JSON.stringify(current) === JSON.stringify(previous);
+    }
+
+    round(number) {
+        return Math.round(number * 10000) / 10000;
+    }
+
+    getQualityOfOpponent(opponent) {
+        let qoo = 0.0;
+        if (this.ratings[opponent] && !isNaN(this.ratings[opponent].rating)) {
+            qoo = this.ratings[opponent].rating;
+        }
+
+        return this.round(qoo);
     }
 }
 

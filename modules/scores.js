@@ -2,6 +2,7 @@
 
 const cfb = require('cfb-data');
 const Query = require('./query');
+const chalk = require('chalk');
 
 module.exports = class Scores {
 
@@ -52,10 +53,13 @@ module.exports = class Scores {
     update() {
         let weekIndex = 1;
         while (weekIndex <= this.week) {
+            process.stdout.write(`Fetching scores for week ${weekIndex}: `);
+
             if (!this.query.scoresExist(this.season, weekIndex)) {
                 this.store(this.season, weekIndex);
+                console.log(chalk.green('success'));
             } else {
-              console.log(`Scores already exist for week ${weekIndex}, skipping`);
+                console.log(chalk.green('scores exist, skipping'));
             }
             weekIndex++;
         }

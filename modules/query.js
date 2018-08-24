@@ -70,6 +70,14 @@ module.exports = class Query {
         return this.db.prepare(sql).run(params);
     }
 
+    ratingsExist(season, week) {
+        const sql = 'SELECT COUNT(id) as count from ratings WHERE season = ? AND week = ?';
+        const params = [season, week];
+
+        const rows = this.db.prepare(sql).get(params);
+        return rows.count > 0;
+    }
+
     clearRatings(season, week) {
         const sql = 'delete from ratings WHERE season = ? AND week = ?';
         const params = [season, week];
