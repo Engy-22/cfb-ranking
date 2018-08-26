@@ -6,6 +6,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "watch": "yarn build --watch",
     "lint": "vue-cli-service lint",
     "init-db": "sqlite3 db/ranking.db < db/ranking.db.sql",
     "init": "yarn run init-db"
@@ -16,6 +17,8 @@
     "cfb-data": "^2.2.1",
     "chalk": "^2.4.1",
     "inquirer": "^6.1.0",
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "@vue/cli-service": "^3.0.1",
+    "vue-template-compiler": "^2.5.17"
   }
 }
