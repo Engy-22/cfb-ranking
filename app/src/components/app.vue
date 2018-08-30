@@ -25,7 +25,7 @@
             <tbody>
                 <tr v-for="(team, index) in rankings" :key="index" v-if="index<25 || showAll">
                     <td>{{ index+1 }}</td>
-                    <td><img :src="`/app/public/img/${kebabCase(team.name)}.png`" style="width: 15px;height: 15px;"/> {{ team.name }}</td>
+                    <td><img :src="`app/public/img/${kebabCase(team.name)}.png`" style="width: 15px;height: 15px;"/> {{ team.name }}</td>
                     <td>{{ team.rating }}</td>
                 </tr>
                 <a class="button" v-show="!showAll" @click="showAll = true">Show All</a>
