@@ -1,4 +1,4 @@
-BEGIN TRANSACTION;
+
 DROP TABLE IF EXISTS `teams`;
 CREATE TABLE IF NOT EXISTS `teams` (
 	`id`	integer,
@@ -188,4 +188,3 @@ DROP INDEX IF EXISTS `ratings_rating`;
 CREATE INDEX IF NOT EXISTS `ratings_rating` ON `ratings` (
 	`rating`
 );
-COMMIT;
