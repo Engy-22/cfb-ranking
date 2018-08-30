@@ -5,8 +5,8 @@
 const os = require('os');
 const inquirer = require('inquirer');
 const chalk = require('chalk');
-const Ranking = require('./modules/ranking')
-const Scores = require('./modules/scores')
+const Ranking = require('./lib/ranking')
+const Scores = require('./lib/scores')
 
 async function main() {
     const date = new Date();
@@ -46,6 +46,7 @@ async function main() {
         season = answers.season;
         week = answers.week;
     } catch (error) {
+        console.error(error);
         console.log(chalk.red('An error occured - exiting...'));
         process.exit();
     }
@@ -81,6 +82,7 @@ async function main() {
                 ranking.store(true);
             }
         } catch (error) {
+            console.error(error);
             console.log(chalk.red('An error occured - exiting...'));
             process.exit();
         }
