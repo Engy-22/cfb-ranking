@@ -21,7 +21,7 @@ async function main() {
     art += `  \\___|_| |___/   |_|_\\/_/ \\_\\_|\\_|_|\\_\\___|_|\\_|\\___|${os.EOL}`;
     art += ` NCAA College Football ranking tool built with node.js${ os.EOL }`;
 
-    //console.log(chalk.blue(art));
+    console.log(chalk.blue(art));
 
     // prompt user for season and week
     try {

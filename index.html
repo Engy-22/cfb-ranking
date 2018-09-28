@@ -8,11 +8,54 @@
     <title>cfb-ranking</title>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but cfb-ranking doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
 
-    <script src="app/public/js/app.js"></script>
+    <div id="app" style="display:flex">
+      <div>
+        <select v-model="file" @change="getRankings(); selectedTeam = false">
+          <option v-for="file in files" :value="file">{{ formatFilename(file) }}</option>
+        </select>
+
+        <h1 class="title">Season: {{ season }} Week: {{ week }}</h1>
+
+        <table class=table>
+          <thead>
+            <th></th>
+            <th>Team</th>
+            <th>Record</th>
+            <th>Rating</th>
+          </thead>
+          <tbody>
+            <tr v-for="(team, index) in rankings" :key="index" v-if="index<25 || showAll">
+              <td>{{ index+1 }}</td>
+              <td>
+                <img :src="`public/img/${kebabCase(team.name)}.png`" style="width: 15px;height: 15px;" />
+                <a @click="selectedTeam = team">{{ team.name }}</a>
+              </td>
+              <td>{{ getRecord(team.weeks) }}
+              <td>{{ team.rating }}</td>
+            </tr>
+            <a class="button" v-show="!showAll" @click="showAll = true">Show All</a>
+          </tbody>
+          <tfoot>
+          </tfoot>
+        </table>
+      </div>
+
+      <div v-if="selectedTeam">
+        <img :src="`public/img/${kebabCase(selectedTeam.name)}.png`" />
+        <h2>{{ selectedTeam.name }}</h2>
+        <p>{{ getRecord(selectedTeam.weeks) }}</p>
+        <p>{{ selectedTeam.rating }}</p>
+
+        <ul v-for="week in selectedTeam.weeks">
+          <li> {{ week.opponent }}
+          </li>
+        </ul>
+          
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="public/js/app.js"></script>
   </body>
 </html>
