@@ -39,11 +39,19 @@ let app = new Vue({
       let response = await fetch(`public/rankings/${this.file}`);
       this.rankings = await response.json();
     },
-
+    getTeam(id) {
+      let team = this.rankings.find(team => team.id == id);
+      return team || {name: 'Non FBS'};
+    },
+    selectTeam(team) {
+      if (team.id) {
+        this.selectedTeam = team;
+      }
+    },
     getRecord(weeks) {
       let wins = 0;
       let losses = 0;
-      weeks.forEach(week => {
+      weeks && weeks.forEach(week => {
         if (week && week.win) {
           wins++;
         } else {
