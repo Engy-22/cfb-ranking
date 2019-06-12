@@ -52,7 +52,7 @@ let app = new Vue({
       let wins = 0;
       let losses = 0;
       weeks && weeks.forEach(week => {
-        if (week && week.win) {
+        if (week && week.w) {
           wins++;
         } else {
           losses++;
