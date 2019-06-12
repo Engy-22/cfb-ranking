@@ -1,5 +1,20 @@
 body {
     font-family: sans-serif;
+    background: whitesmoke;
+    color: darkslategray;
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    background: white;
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1152px;
+        width: 1152px;
+    }
 }
 
 a {
@@ -8,16 +23,13 @@ a {
     font-weight: 700;
 }
 
-#app {
-    display: flex;
-}
-
 .rankings {
     padding: 50px;
 }
 
 .team {
     padding: 50px;
+    display: flex;
 }
 
 td, th {
@@ -40,6 +52,10 @@ td, th {
 }
 
 .team-header {
+    align-items: center;
+}
+
+.team-header-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,6 +63,10 @@ td, th {
 
 .team-header > * {
     margin: 0 10px;
+}
+
+.team-table {
+    font-size: 12px;
 }
 
 

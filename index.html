@@ -1,124 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="/public/favicon.ico">
-    <title>cfb-ranking</title>
-    <link rel="stylesheet" href="public/css/styles.css">
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" href="/public/favicon.ico">
+        <title>cfb-ranking</title>
+        <link rel="stylesheet" href="public/css/styles.css">
+    </head>
+    <body>
 
-    <div id="app">
-      <!-- Ranking View -->
-      <div class="rankings">
-        <select v-model="file" @change="getRankings(); selectedTeam = false">
-          <option v-for="file in files" :value="file">{{ formatFilename(file) }}</option>
-        </select>
+        <div id="app">
+            <!-- header -->
+            <div class="container">
+                <select v-model="file" @change="getRankings()">
+                    <option v-for="file in files" :value="file">{{ formatFilename(file) }}</option>
+                </select>
 
-        <h2>
-          <span class="lighter">Season</span> {{ season }}
-          <span class="lighter">Week</span> {{ week }}
-        </h2>
+                <h2>
+                    <span class="lighter">Season</span> {{ season }}
+                    <span class="lighter">Week</span> {{ week }}
+                </h2>
+            </div>
 
-        <table>
-          <thead>
-            <th></th>
-            <th>Team</th>
-            <th>Record</th>
-            <th>Rating</th>
-          </thead>
-          <tbody>
-            <tr v-for="(team, index) in rankings" :key="index" v-if="index<25 || showAll">
-              <td>{{ index+1 }}</td>
-              <td>
-                <img :src="`public/img/${kebabCase(team.name)}.png`" class="logo-small"/>
-                <a href="#" @click="selectTeam(team)">{{ team.name }}</a>
-              </td>
-              <td>{{ getRecord(team.weeks) }}
-              <td>{{ team.rating }}</td>
-            </tr>
-          </tbody>
-        </table>
-        <button v-show="!showAll" @click="showAll = true">Show All</button>
-        <button v-show="showAll" @click="showAll = false">Show Less</button>
-      </div>
+            <!-- Team View -->
+            <div v-if="selectedTeam" class="container team">
+                <div class="team-header">
+                    <div class="team-header-item">
+                        <img :src="`public/img/${kebabCase(selectedTeam.name)}.png`" class="logo" />
+                        <h3>{{ selectedTeam.name }} {{ selectedTeam.mascot }}</h3>
+                    </div>
+                    <div class="team-header-item">
+                        <p><small>Record</small> <strong>{{ getRecord(selectedTeam.weeks) }}</strong></p>
+                        <p><small>Rating</small> <strong>{{ selectedTeam.rating }}</strong></p>
+                    </div>
+                </div>
 
-      <!-- Team View -->
-      <div v-if="selectedTeam" class="team">
-        <div class="team-header">
-          <img :src="`public/img/${kebabCase(selectedTeam.name)}.png`" class="logo" />
-          <h3>{{ selectedTeam.name }} {{ selectedTeam.mascot }}</h3>
-          <p><small>Record</small> <strong>{{ getRecord(selectedTeam.weeks) }}</strong></p>
-          <p><small>Rating</small> <strong>{{ selectedTeam.rating }}</strong></p>
+                <hr>
+
+                <table class="team-table">
+                    <tbody>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th>
+                                <div class="tooltip">
+                                    V
+                                    <span class="tooltip-text tooltip-top">Total Value of Week</span>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="tooltip">
+                                    MV <span class="tooltip-text tooltip-top">Margin Value</span>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="tooltip">
+                                    QoO <span class="tooltip-text tooltip-top">Quality of Opponent</span>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="tooltip">
+                                    QoOV <span class="tooltip-text tooltip-top">Quality of Opponent Value</span>
+                                </div>
+                            </th>
+
+                        </tr>
+                        <tr v-for="(week, key) in selectedTeam.weeks">
+                            <td>{{ key+1 }} </td>
+                            <td><a href="#" @click="selectTeam(getTeam(week.o))">{{ getTeam(week.o).name }}</a></td>
+                            <td>{{ week.w ? 'W' : 'L' }}</td>
+                            <td>{{ week.s }} - {{ week.os }}</td>
+                            <td>{{ week.v }}</td>
+                            <td>{{ week.mv }}</td>
+                            <td>{{ week.qoo }}</td>
+                            <td>{{ week.qoov }}</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th>
+                                <div class="tooltip">
+                                    {{ selectedTeam.rating }}
+                                    <span class="tooltip-text tooltip-top">Average of Week Value</span>
+                            </th>
+                        </tr>
+                    </tfoot>
+                </table>
+
+            </div>
+
+            <!-- Ranking View -->
+            <div class="container rankings">
+                <table>
+                    <thead>
+                        <th></th>
+                        <th>Team</th>
+                        <th>Record</th>
+                        <th>Rating</th>
+                    </thead>
+                    <tbody>
+                        <tr v-for="(team, index) in rankings" :key="index" v-if="index<25 || showAll">
+                            <td>{{ index+1 }}</td>
+                            <td>
+                                <img :src="`public/img/${kebabCase(team.name)}.png`" class="logo-small"/>
+                                <a href="#" @click="selectTeam(team)">{{ team.name }}</a>
+                            </td>
+                            <td>{{ getRecord(team.weeks) }}
+                            <td>{{ team.rating }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button v-show="!showAll" @click="showAll = true">Show All</button>
+                <button v-show="showAll" @click="showAll = false">Show Less</button>
+            </div>
         </div>
 
-        <hr>
-
-        <table>
-          <tbody>
-            <tr>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th>
-                <div class="tooltip">
-                  V
-                  <span class="tooltip-text tooltip-top">Total Value of Week</span>
-                </div>
-              </th>
-              <th>
-                <div class="tooltip">
-                  MV
-                  <span class="tooltip-text tooltip-top">Margin Value</span>
-                </div>
-              </th>
-              <th>
-                <div class="tooltip">
-                  QoO
-                  <span class="tooltip-text tooltip-top">Quality of Opponent</span>
-                </div>
-              </th>
-              <th>
-                <div class="tooltip">
-                  QoOV
-                  <span class="tooltip-text tooltip-top">Quality of Opponent Value</span>
-                </div>
-              </th>
-
-            </tr>
-            <tr v-for="(week, key) in selectedTeam.weeks">
-              <td>{{ key+1 }} </td>
-              <td><a href="#" @click="selectTeam(getTeam(week.o))">{{ getTeam(week.o).name }}</a></td>
-              <td>{{ week.w ? 'W' : 'L' }}</td>
-              <td>{{ week.s }} - {{ week.os }}</td>
-              <td>{{ week.v }}</td>
-              <td>{{ week.mv }}</td>
-              <td>{{ week.qoo }}</td>
-              <td>{{ week.qoov }}</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th>
-                <div class="tooltip">
-                  {{ selectedTeam.rating }}
-                  <span class="tooltip-text tooltip-top">Average of Week Value</span>
-              </th>
-            </tr>
-          </tfoot>
-        </table>
-
-      </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="public/js/app.js"></script>
-  </body>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="public/js/app.js"></script>
+    </body>
 </html>
