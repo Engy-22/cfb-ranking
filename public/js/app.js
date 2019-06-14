@@ -58,7 +58,7 @@ let app = new Vue({
         },
         selectTeam(team) {
             if (team.id) {
-            this.selectedTeam = team;
+                this.selectedTeam = team;
             }
         },
         getRecord(weeks) {
