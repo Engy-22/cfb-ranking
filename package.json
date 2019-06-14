@@ -4,8 +4,7 @@
   "description": "college football computer poll",
   "license": "MIT",
   "scripts": {
-    "init-db": "sqlite3 db/ranking.db < db/ranking.db.sql",
-    "init": "yarn run init-db"
+    "init-db": "sqlite3 db/ranking.db < db/ranking.db.sql"
   },
   "dependencies": {
     "better-sqlite3": "^4.1.0",

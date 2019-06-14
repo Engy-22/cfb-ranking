@@ -3,6 +3,7 @@ let app = new Vue({
     el: '#app',
     data() {
         return {
+            teams: [],
             files: [],
             file: '',
             rankings: {},
@@ -16,11 +17,13 @@ let app = new Vue({
         },
         week() {
             return this.file.split('.')[1];
-        }
+        },
     },
     async created() {
         let response = await fetch(`public/rankings/index.json`)
-        this.files = await response.json();
+        let indexFile = await response.json();
+        this.files = indexFile.files;
+        this.teams = indexFile.teams;
 
         // default to last file
         this.file = this.files[this.files.length - 1];
@@ -36,6 +39,15 @@ let app = new Vue({
         async getRankings() {
             let response = await fetch(`public/rankings/${this.file}`);
             this.rankings = await response.json();
+
+            // add name and mascot to object
+            this.rankings = this.rankings.map(ranking => {
+                return {
+                    ...ranking,
+                    name: this.teams[ranking.id].name,
+                    mascot: this.teams[ranking.id].mascot,
+                }
+            });
 
             // select the first team
             this.selectTeam(this.rankings[0]);

@@ -70,13 +70,14 @@
                         </tr>
                         <tr v-for="(week, key) in selectedTeam.weeks">
                             <td>{{ key+1 }} </td>
-                            <td><a href="#" @click="selectTeam(getTeam(week.o))">{{ getTeam(week.o).name }}</a></td>
-                            <td>{{ week.w ? 'W' : 'L' }}</td>
-                            <td>{{ week.s }} - {{ week.os }}</td>
-                            <td>{{ week.v }}</td>
-                            <td>{{ week.mv }}</td>
-                            <td>{{ week.qoo }}</td>
-                            <td>{{ week.qoov }}</td>
+                            <td v-if="week"><a href="#" @click="selectTeam(getTeam(week.o))">{{ getTeam(week.o).name }}</a></td>
+                            <td v-if="week">{{ week.w ? 'W' : 'L' }}</td>
+                            <td v-if="week">{{ week.s }} - {{ week.os }}</td>
+                            <td v-if="week">{{ week.v }}</td>
+                            <td v-if="week">{{ week.mv }}</td>
+                            <td v-if="week">{{ week.qoo }}</td>
+                            <td v-if="week">{{ week.qoov }}</td>
+                            <td v-if="!week">BYE</td>
                         </tr>
                     </tbody>
                     <tfoot>
@@ -89,6 +90,7 @@
                                 <div class="tooltip">
                                     {{ selectedTeam.rating }}
                                     <span class="tooltip-text tooltip-top">Average of Week Value</span>
+                                </div>
                             </th>
                         </tr>
                     </tfoot>
