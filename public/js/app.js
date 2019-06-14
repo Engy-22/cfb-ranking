@@ -62,15 +62,8 @@ let app = new Vue({
             }
         },
         getRecord(weeks) {
-            let wins = 0;
-            let losses = 0;
-            weeks && weeks.forEach(week => {
-            if (week && week.w) {
-                wins++;
-            } else {
-                losses++;
-            }
-            });
+            let wins = weeks.reduce((wins, week) => week && week.w ? ++wins : wins, 0);
+            let losses = weeks.reduce((losses, week) => week && !week.w ? ++losses : losses, 0);
 
             return `${wins} - ${losses}`;
         }
