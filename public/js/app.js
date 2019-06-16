@@ -25,8 +25,7 @@ let app = new Vue({
         this.files = indexFile.files;
         this.teams = indexFile.teams;
 
-        // default to last file
-        this.file = this.files[this.files.length - 1];
+        this.initFile();
         await this.getRankings();
     },
     methods: {
@@ -35,6 +34,10 @@ let app = new Vue({
         },
         formatFilename(file) {
             return `${file.split('.')[0]} Week ${file.split('.')[1]}`;
+        },
+        initFile() {
+            // get hash if exists or default to last file
+            this.file = window.location.hash ? window.location.hash.substr(1) + '.json' : this.files[this.files.length - 1];
         },
         async getRankings() {
             let response = await fetch(`public/rankings/${this.file}`);
