@@ -27,7 +27,7 @@
             <div v-if="selectedTeam" class="container team">
                 <div class="team-header">
                     <div class="team-header-item title">
-                        <img :src="`public/img/${kebabCase(selectedTeam.name)}.png`" class="logo" />
+                        <img :src="`public/img/logos/${kebabCase(selectedTeam.name)}.png`" class="logo" />
                         <span>{{ selectedTeam.name }} {{ selectedTeam.mascot }}</span>
                     </div>
                     <div class="team-header-item subtitle">
