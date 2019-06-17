@@ -109,7 +109,7 @@
                         <tr v-for="(team, index) in rankings" :key="index" v-if="index<25 || showAll">
                             <td>{{ index+1 }}</td>
                             <td>
-                                <img :src="`public/img/${kebabCase(team.name)}.png`" class="logo-small"/>
+                                <img :src="`public/img/logos/${kebabCase(team.name)}.png`" class="logo-small"/>
                                 <a href="#" @click="selectTeam(team)">{{ team.name }}</a>
                             </td>
                             <td>{{ getRecord(team.weeks) }}
