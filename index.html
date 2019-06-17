@@ -26,17 +26,15 @@
             <!-- Team View -->
             <div v-if="selectedTeam" class="container team">
                 <div class="team-header">
-                    <div class="team-header-item">
+                    <div class="team-header-item title">
                         <img :src="`public/img/${kebabCase(selectedTeam.name)}.png`" class="logo" />
-                        <h3>{{ selectedTeam.name }} {{ selectedTeam.mascot }}</h3>
+                        <span>{{ selectedTeam.name }} {{ selectedTeam.mascot }}</span>
                     </div>
-                    <div class="team-header-item">
-                        <p><small>Record</small> <strong>{{ getRecord(selectedTeam.weeks) }}</strong></p>
-                        <p><small>Rating</small> <strong>{{ selectedTeam.rating }}</strong></p>
+                    <div class="team-header-item subtitle">
+                        <p><small class="label">RECORD</small> <strong>{{ getRecord(selectedTeam.weeks) }}</strong></p>
+                        <p><small class="label">RATING</small> <strong>{{ selectedTeam.rating }}</strong></p>
                     </div>
                 </div>
-
-                <hr>
 
                 <table class="team-table">
                     <tbody>
@@ -103,9 +101,9 @@
                 <table>
                     <thead>
                         <th></th>
-                        <th>Team</th>
-                        <th>Record</th>
-                        <th>Rating</th>
+                        <th class="label">TEAM</th>
+                        <th class="label">RECORD</th>
+                        <th class="label">RATING</th>
                     </thead>
                     <tbody>
                         <tr v-for="(team, index) in rankings" :key="index" v-if="index<25 || showAll">
