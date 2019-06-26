@@ -11,7 +11,7 @@ Dependencies
 ```bash
 git clone git@github.com:johnwilhite/cfb-ranking.git
 cd cfb-ranking
-yarn init-db # or npm run init-dbVa
+yarn init-db # or npm run init-db
 ```
 
 ## Usage
